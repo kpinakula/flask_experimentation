@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flask-api"
+version = "0.1.0"
+description = ""
+authors = ["kpinakula <7438240+kpinakula@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "flask_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
