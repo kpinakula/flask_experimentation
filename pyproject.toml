@@ -8,6 +8,9 @@ packages = [{include = "flask_api"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+black = "^23.1.0"
+pytest = "^7.2.2"
+flask = "^2.2.3"
 
 
 [build-system]
