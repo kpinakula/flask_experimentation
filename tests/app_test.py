@@ -1,4 +1,4 @@
-from api.app import app
+from src.app import app
 import json
 
 
