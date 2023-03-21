@@ -1,4 +1,4 @@
-from src.app import app
+from flask_api.app import app
 import json
 
 
