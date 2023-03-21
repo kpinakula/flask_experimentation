@@ -5,4 +5,4 @@ shell:
 	docker run -it flask-api sh
 
 serve:
-	docker run flask-api
+	docker run -p 5000:5000 flask-api

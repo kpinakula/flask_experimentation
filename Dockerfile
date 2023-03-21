@@ -6,4 +6,5 @@ COPY flask_api flask_api
 RUN poetry install
 
 WORKDIR /src/flask_api
-CMD ["poetry", "run", "flask", "run"]
+EXPOSE 5000
+CMD ["poetry", "run", "flask", "run", "--host", "0.0.0.0"]
